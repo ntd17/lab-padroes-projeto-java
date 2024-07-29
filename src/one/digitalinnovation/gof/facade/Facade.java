@@ -14,4 +14,5 @@ public class Facade {
 
 	public String buscarCidade(String cep){
 		return CepApi.getInstancia().recuperarCidade(cep);
+	}
 }
