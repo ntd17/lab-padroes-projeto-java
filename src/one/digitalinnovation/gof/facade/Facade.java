@@ -11,4 +11,7 @@ public class Facade {
 		
 		CrmService.gravarCliente(nome, cep, cidade, estado);
 	}
+
+	public String buscarCidade(String cep){
+		return CepApi.getInstancia().recuperarCidade(cep);
 }
