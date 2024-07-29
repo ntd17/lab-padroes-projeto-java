@@ -47,6 +47,8 @@ public class Test {
 		robo.mover();
 		robo.mover();
 		robo.mover();
+		robo.setComportamento(normal);
+		robo.mover();
 		
 		// Facade
 		
